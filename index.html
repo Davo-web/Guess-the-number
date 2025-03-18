@@ -9,7 +9,7 @@
 <body>
     <p>Guess the number<br><span id = "text2">You have <span id = "countAtt">15</span> attempts</span></p>
     <span id = "text"><label for="name">Enter a number</label></span>
-    <div><input title = "enter a number" id = "num" type="number" onkeypress="if(event.key === 'Enter') getNum()" name="name" required>
+    <div><input id = "num" type="number" onkeypress="if(event.key === 'Enter') getNum()" name="name">
     <button id = "butt" onclick="getNum()">Try</button></div>
     <div><button id="newGame" style="display: none;" onclick="startNewGame()">New game</button></div>
     <script src="js/main.js"></script>
