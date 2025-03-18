@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/moy.css">
+    <title>JS</title>
+</head>
+<body>
+    <p>Guess the number<br><span id = "text2">You have <span id = "countAtt">15</span> attempts</span></p>
+    <span id = "text"><label for="name">Enter a number</label></span>
+    <div><input title = "enter a number" id = "num" type="number" onkeypress="if(event.key === 'Enter') getNum()" name="name" required>
+    <button id = "butt" onclick="getNum()">Try</button></div>
+    <div><button id="newGame" style="display: none;" onclick="startNewGame()">New game</button></div>
+    <script src="js/main.js"></script>
+</body>
+</html>
