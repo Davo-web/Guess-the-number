@@ -57,6 +57,10 @@ button:hover {
 #newGame:hover {
     background-color: #007399;
 }
+input:focus { 
+    outline: none;
+    border-color: #1c6909;
+}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
