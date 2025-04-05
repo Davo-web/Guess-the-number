@@ -1,6 +1,5 @@
 let attempts = 0;
 let myNum = Math.floor(Math.random() * 100) + 1;
-console.log(myNum);
 function getNum (){
     attempts++;
     var val = parseInt(document.getElementById("num").value);
