@@ -44,5 +44,4 @@ function startNewGame(){
     document.getElementById("countAtt").textContent = "15";
     document.getElementById("num").value = "";
     attempts = 0;
-    console.log(myNum);
 }
